@@ -1,0 +1,13 @@
+tqdm
+pyyaml
+numpy==1.24.4
+h5py
+easydict
+
+ipdb
+scikit-learn
+scipy
+opencv-python
+einops
+matplotlib
+seaborn

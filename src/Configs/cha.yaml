@@ -1,0 +1,37 @@
+num_workers: 48
+no_core_driver: False
+no_pin_memory: False
+batchsize: 64
+persistent_workers: True
+prefetch_factor: 4
+
+lr: 0.00038
+lr_warmup_proportion: 0.01
+wd: 0.01
+margin: 0.2
+
+n_epoch: 400
+max_es_cnt: 10
+hard_negative_start_epoch: 100
+hard_pool_size: 20
+use_hard_negative: False
+loss_factor:
+  - 0.008
+  - 0.01
+  - 0.005
+neg_factor:
+  - 0.15
+  - 32
+
+eval_query_bsz: 50
+eval_context_bsz: 100
+
+max_desc_l: 30
+max_ctx_l: 1024
+q_feat_size: 1024
+max_position_embeddings: 300
+hidden_size: 384
+n_heads: 4
+input_drop: 0.15
+drop: 0.3
+initializer_range: 0.02
