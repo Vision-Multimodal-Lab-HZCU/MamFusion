@@ -27,8 +27,8 @@ eval_query_bsz: 50
 eval_context_bsz: 100
 
 max_desc_l: 30
-max_ctx_l: 256
-q_feat_size: 1024
+max_ctx_l: 512
+q_feat_size: 768
 max_position_embeddings: 300
 hidden_size: 384
 n_heads: 8

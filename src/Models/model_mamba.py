@@ -302,8 +302,6 @@ class GMMFormer_Mamba_Net(nn.Module):
             self.query_encoder,
             self.query_pos_embed,
         )
-        if query_mask is not None:
-            mask = query_mask.unsqueeze(1)
 
         video_query = self.get_modularized_queries(encoded_query, query_mask)
 
