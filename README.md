@@ -12,7 +12,7 @@
 1. Clone this repository:
 
 ```
-git clone https://github.com/Lin-jingy/MamFusion.git
+git clone https://github.com/Vision-Multimodal-Lab-HZCU/MamFusion.git
 cd MamFusion
 ```
 
@@ -29,7 +29,7 @@ cd MamFusion
 >
 > 
 >
-> You can also choose to download directly through the link I provided. (Note: This link is slower than Baidu Netdisk.)
+> You can also choose to download directly through the link We provided. (Note: This link is slower than Baidu Netdisk.)
 >
 > > http://120.26.160.25/package/
 
@@ -83,7 +83,7 @@ For this repository, the expected performance is:
 
 
 
-I have also provided you with pre-trained models for verification.
+We have also provided you with pre-trained models for verification.
 
 > http://120.26.160.25/Pre-trained-model/
 

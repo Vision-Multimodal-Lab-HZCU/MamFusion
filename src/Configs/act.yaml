@@ -1,7 +1,7 @@
 num_workers: 28
 no_core_driver: False
 no_pin_memory: False
-batchsize: 256
+batchsize: 64
 persistent_workers: True
 prefetch_factor: 4
 
@@ -33,5 +33,5 @@ max_position_embeddings: 300
 hidden_size: 384
 n_heads: 8
 input_drop: 0.2
-drop: 0.45
+drop: 0.18
 initializer_range: 0.02
