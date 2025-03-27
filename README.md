@@ -1,4 +1,4 @@
-# MMFormer: Multimodel Mamba Based GMMFormer for Efficient Partially Relevant Video Retrieval
+# MamFusion: Multi-Mamba with Temporal Fusion for Partially Relevant Video Retrieval
 
 
 ## Catalogue 
